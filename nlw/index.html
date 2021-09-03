@@ -7,22 +7,37 @@
     <title>Proffy | Sua plataforma de estudos online</title>
     
     <!--css-->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/partials/page-landing.css">
+    <!--fontes-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
 </head>
-<body>
+
+<body id="page-landing">
+
     <div id="container">
-        <div class="logo-container"></div>
+        <div class="logo-container">
             <img src="images/logo.svg" alt="Proffy">
             <h2>Sua plataforma de estudos online</h2>
+        </div>
+        <!--imagem principal da landing page-->
+        <img class="hero-image" src="images/landing.svg" alt="Plataforma de Estudos">
         
-        <button>Estudar</button>
-        <button>Dar Aulas</button>
+        <div class="buttons-container">
+            <a class="study" href="study.html">
+                <img src="images/icons/study.svg" alt="Estudar">
+                Estudar
+            </a>
+            <a class="give-classes" href="give-classes.html">
+                <img src="images/icons/give-classes.svg" alt="Dar aulas">
+                Dar aulas
+            </a>
+
+        </div>
     </div>
-    
 
 </body>
 </html>
