@@ -131,9 +131,9 @@
          grid-template-columns: 2fr 1fr 1fr;
          column-gap: 1.6rem;
      }
-     /*alinhamento dos itens dos horários*/
-     #page-give-classes #schdule-itens .select-block+.input-block,
-     #page-give-classes #schdule-itens .input-block+.input-block {
+     /*alinhamento dos items dos horários*/
+     #page-give-classes #schedule-items .select-block+.input-block,
+     #page-give-classes #schedule-items .input-block+.input-block {
          margin-top: 0;
      }
 
