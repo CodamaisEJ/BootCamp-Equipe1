@@ -19,6 +19,3 @@ function cloneField(){
     //colocar nas página, onde ?
     document.querySelector('#schdule-itens').appendChild(newFildesContainer)//appendChield adicionar um node um nó, o filho
 }
-    
-
-    
