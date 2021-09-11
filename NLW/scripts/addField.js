@@ -6,9 +6,18 @@ document.querySelector("#add-time")
 //executa uma ação
 function cloneField(){
     //duplicar os campos, quais campos ?
-    fields = document.querySelector('.schedule-item').cloneNode(true)//boolea: true or false 
+    const newFildesContainer = document.querySelector('.schedule-item').cloneNode(true)//boolea: true or false 
+    
+    //pegar os campos. Que campos ?
+    const field = newFildesContainer.querySelectorAll('input') //pegar todos os campos imput do no que vai ser clonado
+    
+    //para cada campo, limpar os campos
+   field.forEach(function(field){
+    field.value = ""
+   })
+    
     //colocar nas página, onde ?
-    document.querySelector('#schdule-itens').appendChild(fields)//appendChield adicionar um node um nó, o filho
+    document.querySelector('#schdule-itens').appendChild(newFildesContainer)//appendChield adicionar um node um nó, o filho
 }
     
 
