@@ -6,9 +6,16 @@ document.querySelector("#add-time")
 
 function cloneField(){
 
-    const fields = document.querySelector('.schedule-item').cloneNode(true)
+    const newFieldContainer = document.querySelector('.schedule-item').cloneNode(true)
 
-    document.querySelector('#schedule-items') .appendChild(fields)
+    const fields = newFieldContainer.querySelectorAll ('input')
+
+    fields.forEach(function(field){
+        field.value=""
+    })
+
+    document.querySelector('#schedule-items') .appendChild(newFieldContainer)
+
 }
 
 
