@@ -4,8 +4,10 @@
     "dev": "nodemon src/server.js"
   },
   "dependencies": {
+    "async": "^3.2.1",
     "nodemon": "^2.0.12",
     "nunjucks": "^3.2.3",
+    "sqlite": "^4.0.23",
     "sqlite-async": "^1.1.1"
   },
   "devDependencies": {
