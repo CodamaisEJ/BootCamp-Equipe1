@@ -31,7 +31,7 @@ Database.then(async (db) => {
     ]
     
 
-    await createProffy(db, {proffyValue, classValue, classScheduleValue})
+    await createProffy(db, {proffyValue, classValue, classScheduleValues})
 
     // Consultar os dados inseridos
 
