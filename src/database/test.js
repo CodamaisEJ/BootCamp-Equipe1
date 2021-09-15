@@ -36,3 +36,4 @@ Database.then(async (db) => {
     // Consultar os dados inseridos
 
 })
+//node src/database/db.js comando para iniciar o banco de dados
