@@ -11,19 +11,19 @@ function execute(db) {
             bio TEXT
         );
 
-        CREATE TABLE IF NOT EXISTS classes(
+        CREATE TABLE IF NOT EXISTS classes (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             subject TEXT,
             cost TEXT,
-            proffy_id  INTENGER 
+            proffy_id INTEGER 
         );
 
-        CREATE TABLE IF NOT EXISTS classes_schedule(
+        CREATE TABLE IF NOT EXISTS class_schedule(
             id INTEGER PRIMARY KEY AUTOINCREMENT,
-            class_id INTENGER,
-            weekday INTENGER,
-            time_from INTENGER,
-            time_to INTENGER
+            class_id INTEGER,
+            weekday INTEGER,
+            time_from INTEGER,
+            time_to INTEGER
         );
     `)
 }
